@@ -64,8 +64,8 @@ body {
   }
   
  .name{
-    /* width: 300px; */
-    /* height: 90px; */
+     /* width: 400px;  */
+     height: 50px; 
     font-family: Georgia, Times, "Times New Roman", serif;
     /* font-size: 30px; */
     font-weight: 700;
@@ -74,10 +74,13 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+    
   }
   
+
+  
   .navbar-nav {
-    margin-top: 25px;
+    margin-top: 20px;
   }
   
   .navbar-nav {
@@ -88,6 +91,7 @@ body {
     color: #999;
     text-decoration: none;
     border-left: 1px solid #efefef;
+    
   }
   
   nav a:first-child {
@@ -96,7 +100,8 @@ body {
   
   /* footer */
   
-  footer {
+footer {
+    bottom:0;
     padding: 30px 0;
     margin-top: 10%;
     clear: both;
@@ -153,6 +158,12 @@ body {
     opacity: 0.8;
   }
   
+  #profilepic {
+    float: left;
+    max-width: 20%;
+
+
+  }
   .work h3 {
     position: absolute;
     bottom: 20px;
@@ -179,6 +190,7 @@ body {
   
   #contact-form ul {
     margin-bottom: 20px;
+    list-style:none;
   }
   
   #contact-form li {
@@ -216,16 +228,18 @@ body {
   }
   
   /* Large desktop */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {}
+
  
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { ... }
+@media (min-width: 768px) and (max-width: 979px) {}
+
  
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) { ... }
+@media (max-width: 767px) {}
  
 /* Landscape phones and down */
-@media (max-width: 480px) {
+@media (max-width: 680px) {
 .navbar-brand {
   position:absolute;
   top:5px;
@@ -240,6 +254,23 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-inline-start: 0px;
+  margin-top: 50px;
 }
+
+#profilepic {
+max-width:100%;
+}
+
+#maincontainer {
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+#contact-form (
+  margin-left: auto;
+  margin-right: auto;
+
+)
 
 }
